@@ -1,0 +1,37 @@
+body {
+    /* background-color:#AFEEEE; */
+    background-image: url(https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+h2{
+    color: white;
+}
+a{
+    color: black;
+}
+image{
+    border-radius: 100%;
+    height: 400px;
+    width: 400px;
+    
+}
+
+p1,p2 {
+    margin-left: 5cm;
+    font-size: 30px;
+    color: white;
+    /* background-image: url(http://www.twitchellcorp.com/uploads/1/0/3/7/103766634/s345385103909909467_p99_i1_w640.png); */
+}
+
+/* p3{
+        text-align: center;
+        font-size: 20px;
+        font-family: cursive;
+      } */
