@@ -14,7 +14,7 @@
 }
 
 .text{
-    width:20%;
+    width:10%;
     animation: typing 2s steps(13), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -36,5 +36,28 @@
 }
 .title:hover{
     height: 2cm;
-    font-size:larger;
+    text-align:center;
+    margin-top: 30px;
+}
+p{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    font-family:cursive;
+}
+h1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 10%;
+}
+img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.profile{
+    align-items: center;
+    text-align: center;
 }
