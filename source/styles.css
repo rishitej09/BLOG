@@ -7,16 +7,14 @@
     color: white;
     height: 1cm;
     transition: 2s ease;
-    width:min-content;
-    border-radius: 40%;
-}
+ }
 .title{
     display: flex;
     justify-content: center;
 }
 
 .text{
-    width: 200%;
+    width:20%;
     animation: typing 2s steps(13), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
