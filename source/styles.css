@@ -1,37 +1,42 @@
-body {
-    /* background-color:#AFEEEE; */
-    background-image: url(https://images.unsplash.com/photo-1537210249814-b9a10a161ae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-h1 {
-    background-color: black;
-    color: white;
-    font-size: 50px;
-}
-h2{
-    color: white;
-}
-a{
+.running-text{
+    background-color: yellow;
     color: black;
 }
-image{
-    border-radius: 100%;
-    height: 400px;
-    width: 400px;
-    
-}
-
-p1,p2 {
-    margin-left: 5cm;
-    font-size: 30px;
+.title{
+    background-color: black;
     color: white;
-    /* background-image: url(http://www.twitchellcorp.com/uploads/1/0/3/7/103766634/s345385103909909467_p99_i1_w640.png); */
+    height: 1cm;
+    transition: 2s ease;
+    width:min-content;
+    border-radius: 40%;
+}
+.title{
+    display: flex;
+    justify-content: center;
 }
 
-/* p3{
-        text-align: center;
-        font-size: 20px;
-        font-family: cursive;
-      } */
+.text{
+    width: 200%;
+    animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+.title:hover{
+    height: 2cm;
+    font-size:larger;
+}
