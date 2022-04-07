@@ -112,8 +112,8 @@ h2{
 }
 .text-second-page:hover{
     background-color: lightblue;
-    border-top-left-radius: 60%;
-    border-bottom-right-radius: 60%;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
     box-shadow: 5px grey;
 
 }
