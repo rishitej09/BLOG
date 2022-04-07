@@ -1,10 +1,26 @@
+body{
+    background-image: url(./wp2757874-wallpaper-gif.gif);
+    background-attachment: fixed;
+}
+.content h1{
+    color: white;
+}
+.content p {
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+
+
 .running-text{
     background-color: yellow;
     color: black;
 }
 .title{
-    background-color: black;
-    color: white;
+    background-color:white;
+    color:black;
     height: 1cm;
     transition: 2s ease;
  }
@@ -143,6 +159,7 @@ h5{
     width: 60%;
     float: left;
     margin-bottom: 1CM;
+    transition: 1s ease;
 }
 .card-2 {
     border:0px;
@@ -151,6 +168,7 @@ h5{
     width: 60%;
     float: right;
     margin-bottom: 1CM;
+    transition: 1s ease;
 }
 .card-3 {
     border:0px;
@@ -159,6 +177,7 @@ h5{
     width: 60%;
     float: left;
     margin-bottom: 1CM;
+    transition: 1s ease;
 }
 
 .btn {
