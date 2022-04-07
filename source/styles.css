@@ -122,3 +122,83 @@ h2{
     width: 100%;
     height:auto;
 } */
+table{
+    border: 1px solid;
+    width: 50%;
+    height: fit-content;
+    text-align: center;
+    overflow: auto;
+    border-radius: 10%;
+    align-items: center;
+}
+h5{
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+}
+.card-1{
+    border:0px;
+    border-radius: 30px;
+    background-color: darkgrey;
+    width: 60%;
+    float: left;
+    margin-bottom: 1CM;
+}
+.card-2 {
+    border:0px;
+    border-radius: 30px;
+    background-color:lightcyan;
+    width: 60%;
+    float: right;
+    margin-bottom: 1CM;
+}
+.card-3 {
+    border:0px;
+    border-radius: 30px;
+    background-color:lightgrey;
+    width: 60%;
+    float: left;
+    margin-bottom: 1CM;
+}
+
+.btn {
+    text-decoration: none;
+    color:white;
+    background-color:skyblue;
+    text-align: center;
+    margin-left: 43%;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.card-1:hover{
+    transition: 1s ease;
+    margin-left: 5cm;
+    border: 3px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px darkgrey;
+}
+.card-2:hover {
+    transition: 1s ease;
+    margin-right: 5cm;
+    border: 3px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px lightcyan;
+}
+.card-3:hover {
+    transition: 1s ease;
+    margin-left: 5cm;
+    border: 3px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+
+}
+.card-3::backdrop{
+    transition: 5s ease;
+    margin-left: 0px;
+    /* border: 3px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px lightgrey; */
+}
