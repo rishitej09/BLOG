@@ -2,36 +2,26 @@ body{
     background-image: url(./wp2757874-wallpaper-gif.gif);
     background-attachment: fixed;
 }
-.content h1{
-    color: white;
-}
-.content p {
-    color: white;
-}
-h3 {
-    color: white;
-}
-
-
-
-.running-text{
+.running-text {
     background-color: yellow;
     color: black;
 }
-.title{
-    background-color:white;
-    color:black;
+
+.title {
+    background-color: white;
+    color: black;
     height: 1cm;
     transition: 2s ease;
- }
-.title{
+}
+
+.title {
     display: flex;
     justify-content: center;
 }
 
-.text{
-    width:10%;
-    animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+.text {
+    width: 10%;
+    animation: typing 2s steps(13), blink .5s infinite ;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -50,11 +40,23 @@ h3 {
         border-color: transparent
     }
 }
-.title:hover{
+.title:hover {
     height: 2cm;
-    text-align:center;
+    text-align: center;
     margin-top: 30px;
 }
+.content h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+.content p {
+    color: white;
+}
+h3 {
+    color: white;
+}
+
 p{
     color:black;
     font-size: 30px;
@@ -81,7 +83,7 @@ img{
     position: fixed;
     top: -50px;
     width: 100%;
-    display: block;
+    display: block flex;
     transition: top 0.3s;
 }
 
@@ -106,16 +108,14 @@ img{
     position: relative;
     float: right;
 }
-.icon img:hover{
-    color: black;
-}
+
 .more-details img{
     height: 0.5cm;
     width: 0.9cm;
 }
 .more-details{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 9%;
 }
 h2{
     text-align: center;
@@ -133,20 +133,7 @@ h2{
     box-shadow: 5px grey;
 
 }
-/* *{
-    background-image:url("https: //wallpapercave.com/wp/wp4112239.jpg");
-    width: 100%;
-    height:auto;
-} */
-table{
-    border: 1px solid;
-    width: 50%;
-    height: fit-content;
-    text-align: center;
-    overflow: auto;
-    border-radius: 10%;
-    align-items: center;
-}
+
 h5{
     font-size: 50px;
     font-family: fantasy;
@@ -179,11 +166,32 @@ h5{
     margin-bottom: 1CM;
     transition: 1s ease;
 }
+.card-1:hover{
+    transition: 1s ease;
+    margin-left: 5cm;
+    border: 3px;
+    padding: 10px;
+    /* box-shadow: 10px 10px 10px 10px darkgrey; */
+}
+.card-2:hover {
+    transition: 1s ease;
+    margin-right: 5cm;
+    border: 3px;
+    padding: 10px;
+    /* box-shadow: 10px 10px 10px 10px lightcyan; */
+}
+.card-3:hover {
+    transition: 1s ease;
+    margin-left: 5cm;
+    border: 3px;
+    padding: 10px;
+    /* box-shadow: 10px 10px 10px 10px lightgrey; */
 
+}
 .btn {
     text-decoration: none;
-    color:white;
-    background-color:skyblue;
+    color: white;
+    background-color: skyblue;
     text-align: center;
     margin-left: 43%;
     border: 1px solid black;
@@ -192,32 +200,45 @@ h5{
     border-radius: 50px;
 
 }
-.card-1:hover{
-    transition: 1s ease;
-    margin-left: 5cm;
-    border: 3px;
-    padding: 10px;
-    box-shadow: 10px 10px 10px 10px darkgrey;
-}
-.card-2:hover {
-    transition: 1s ease;
-    margin-right: 5cm;
-    border: 3px;
-    padding: 10px;
-    box-shadow: 10px 10px 10px 10px lightcyan;
-}
-.card-3:hover {
-    transition: 1s ease;
-    margin-left: 5cm;
-    border: 3px;
-    padding: 10px;
-    box-shadow: 10px 10px 10px 10px lightgrey;
+#startup-projects{
+    background-color:lightblue;
+    margin-top: 1200px;
+    height:500px;
 
 }
-.card-3::backdrop{
-    transition: 5s ease;
-    margin-left: 0px;
-    /* border: 3px;
-    padding: 10px;
-    box-shadow: 10px 10px 10px 10px lightgrey; */
+.startup-box-1{
+    position:absolute;
+    left: 400px;
+    top:-100px;
+    background-color: white;
+    margin-top: 205em;
+    border-radius: 20px;
 }
+.startup-box-2 {
+    position: absolute;
+    left: 1000px;
+    top: -100px;
+    background-color: white;
+    margin-top: 205em;
+    border-radius: 20px;
+}
+.startup-box-3 {
+    position: absolute;
+    left: 1000px;
+    /* top: 300px; */
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 20px;
+}
+.startup-box-4 {
+    position: absolute;
+    left: 400px;
+    /* top: 300px; */
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 20px;
+}
+
+
+
+
