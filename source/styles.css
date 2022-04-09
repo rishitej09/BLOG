@@ -257,6 +257,28 @@ h5{
     transform: scale(1.5);
     transition: 0.5s ease;
 }
+/* .startup-projects-container::after{
+    content: none;
+} */
+.footer{
+    background-color: cyan;
+    width: 100%;
+    position: relative;
+    height: 100px;
+    border-bottom: 0;
+    margin-top:35em;
+}
+.footer > img{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 45%;
+}
+.footer > h3{
+    position: absolute;
+    left: 48%;
+}
 
 
 
