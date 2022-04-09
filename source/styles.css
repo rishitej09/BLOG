@@ -206,6 +206,15 @@ h5{
     height:500px;
 
 }
+/* .startup-heading{
+    transition: 2s ease;
+}
+.startup-heading:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 0.5s ease;
+} */
 .startup-box-1{
     position:absolute;
     left: 400px;
