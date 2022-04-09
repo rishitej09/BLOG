@@ -213,6 +213,7 @@ h5{
     background-color: white;
     margin-top: 205em;
     border-radius: 20px;
+    transition: 0.5s ease;    
 }
 .startup-box-2 {
     position: absolute;
@@ -237,6 +238,15 @@ h5{
     background-color: white;
     margin-top: 10em;
     border-radius: 20px;
+}
+.startup-box-1:hover ,
+.startup-box-2:hover ,
+.startup-box-3:hover ,
+.startup-box-4:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 0.5s ease;
 }
 
 
